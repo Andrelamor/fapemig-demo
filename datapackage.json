@@ -1,0 +1,168 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "serie-encadeada",
+      "path": "2021-3-serie-encadeada.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano"
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "AGROPECUARIA_TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "EXTR_MINERAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRANSFORMACAO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ENERGIA_SANEAMENTO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "CONSTRUCAO_CIVIL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "INDUSTRIA_TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "COMERCIO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRANSPORTE",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "OUTROS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ADMINISTRACAO_PUBLICA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "SERVICOS_TOTAL",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "IMPOSTOS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "title": "Série Encadeada",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Série Encadeada"
+    },
+    {
+      "name": "valores-correntes",
+      "path": "2021-3-valores-correntes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "TRIMESTRE",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "AGROPECUARIA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "INDUSTRIA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "SERVICOS",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "VA",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "PIB",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "title": "Valores Correntes",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Valores Correntes"
+    }
+  ],
+  "keywords": [
+    "economia",
+    "pib",
+    "fapemig"
+  ],
+  "name": "teste-pib-fapemig",
+  "title": "Teste de oficina",
+  "description": "Teste de documentação e publicação de um datapackage",
+  "contributors": [
+    {
+      "title": "André",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
